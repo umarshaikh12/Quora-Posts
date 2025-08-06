@@ -1,0 +1,122 @@
+/* Base styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #eef6f7;
+    color: #444;
+    margin: 0;
+    padding: 30px;
+}
+
+/* Headings */
+h1, h2 {
+    text-align: center;
+    color: #b388eb;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+/* Post container */
+.post {
+    background-color: #ffffff;
+    border: 2px dashed #dcd3f5;
+    padding: 25px;
+    margin: 30px auto;
+    max-width: 600px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 15px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease;
+}
+
+.post:hover {
+    transform: translateY(-5px);
+}
+
+/* Username & Content */
+.user {
+    color: #6a4ca4;
+    font-size: 1.4rem;
+    margin: 0;
+}
+
+.content {
+    color: #55566c;
+    font-size: 1.1rem;
+    margin-top: 10px;
+}
+
+/* Post ID */
+.post-id,
+.post-user {
+    text-align: center;
+    color: #9e85d4;
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+/* Form styling */
+.form {
+    background: #ffffff;
+    padding: 30px;
+    max-width: 600px;
+    margin: 50px auto;
+    border-radius: 20px;
+    box-shadow: 2px 2px 15px rgba(0,0,0,0.05);
+    border-left: 6px solid #b388eb;
+}
+
+/* Inputs & textarea */
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    background-color: #e6f2f3;
+    border: 1px solid #c6e3e8;
+    border-radius: 10px;
+    font-size: 1rem;
+    color: #3e3e3e;
+    outline: none;
+}
+
+input:focus,
+textarea:focus {
+    border-color: #79c2d0;
+    box-shadow: 0 0 5px rgba(121, 194, 208, 0.5);
+}
+
+/* Submit button */
+button {
+    background-color: #79c2d0;
+    color: #fff;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #5caab9;
+}
+
+/* Link buttons */
+a {
+    text-align: center;
+    display: block;
+    margin: 25px auto;
+    color: #fff;
+    background: #b388eb;
+    width: fit-content;
+    padding: 10px 20px;
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #9a6fda;
+}
